@@ -1,0 +1,1 @@
+This is a graduation project based on asynchronous parsing of the Avito website, including real-time analysis of ad changes, price changes and other business logic
