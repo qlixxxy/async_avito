@@ -21,6 +21,12 @@ setup(
         "Operating System :: OS Independent",
     ],
     package_dir={"": "src"},
+    install_requires=[
+        'aiohttp==3.8.1',
+        'asyncio==3.4.3',
+        'requests-html==0.10.0',
+        'tortoise-orm==0.18.1'
+    ],
     packages=find_packages(where="src"),
     python_requires=">=3.10",
 )
